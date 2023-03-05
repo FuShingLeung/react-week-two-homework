@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function SiteNav() {
   return (
     <nav>
-      <NavLink to={'/'}>Home</NavLink>
-      <NavLink to={'/clocks'}>Clocks</NavLink>
+      <Link to={'/'}>Home</Link>
+      <Link to={'/clocks'}>Clocks</Link>
     </nav>
   );
 }

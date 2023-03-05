@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import CurrentClock from '../components/clocks/CurrentClock';
 import ClocksList from '../components/clocks/ClocksList';
 
 const timezones = ['London', 'Korea', 'Egypt'];
